@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "investment_etl"
+version = "0.1.0"
+description = "ETL process for handling investment fund data"
+authors = ["Karthic Harish Ragupathy <ragupatk@gic.com.sg>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+pandas = "^1.3.0"
+python-dotenv = "^0.19.0"
+pydantic = "^1.8.0"
+openpyxl = "^3.0.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
